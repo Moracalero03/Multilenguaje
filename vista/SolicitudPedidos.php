@@ -8,8 +8,8 @@ include_once('../includes/funcionesComunes.php');
     //Variable para la ruta en el cambio de idioma
     $section = "SolicitudPedidos.php";
 
-    $col8 = "col-8 col-sm-12 col-md-12 col-lg-12";
-    $col4 = "col-4 col-sm-6 col-md-6 col-lg-6";
+    $col8 = "col-12 col-sm-12 col-md-12 col-lg-12";
+    $col4 = "col-12 col-sm-12 col-md-6 col-lg-6";
     $col6 = "col-sm-6 col-md-6 col-lg-6";
 include('../includes/cabecera.php');
 ?>
@@ -157,8 +157,9 @@ include('../includes/cabecera.php');
                         </div>
                         <div class="<?= $col6 ?>">
                             <p><?php echo $lang['formSolicitudPedidos']['FechaVence']?></p>
-                            <input type="text" name="txtFechaVenceSP" id="yearpicker">
+                            <center>  <input type="text" name="txtFechaVenceSP" id="yearpicker"></center>
                         </div>
+                        
                     </div>
                     <div class="row">
                         <div class="<?= $col6 ?>">
@@ -168,10 +169,10 @@ include('../includes/cabecera.php');
                     </div>
 
                     <div class="row">
-                        <div class="<?= $col6 ?> d-flex justify-content-center p-4">
+                        <div class=" col-6 col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center p-4">
                         <button class="btn btn-info px-5" type="submit"><?php echo $lang['formSolicitudPedidos']['Enviar']?></button>
                         </div>
-                        <div class="<?= $col6 ?> d-flex d-flex justify-content-center p-4">
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6 d-flex d-flex justify-content-center p-4">
                             <button class="btn btn-secondary px-5" type="button" data-dismiss="modal"><?php echo $lang['formSolicitudPedidos']['Cancelar']?></button>
                         </div>
                     </div>

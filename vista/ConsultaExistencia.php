@@ -2,7 +2,7 @@
 include_once('../includes/funcionesComunes.php');
 $value="ConsultaExistencia";
 $datasection="formConsultaExistencia";
-$col11="col-11 col-lg-12";
+$col11="col-9 col-lg-12";
 $col10="col-7 col-lg-7"; 
 $section = "ConsultaExistencia.php";
 
